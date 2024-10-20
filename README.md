@@ -3,3 +3,12 @@ This is one of the first projects in the [Introduction to AI with Python course]
 
 ## Introduction
 The Minimax algorithm is a decision-making algorithm used primarily in two-player turn-based games, such as chess or tic-tac-toe, to determine the optimal move. It operates under the assumption that both players are rational and will play optimally. The algorithm works by simulating all possible future moves in the game, creating a game tree, and then evaluating the outcome of each possible sequence of moves. The "min" part represents the opponent trying to minimize the player's score, while the "max" part represents the player trying to maximize their own score. By recursively evaluating the game tree, Minimax aims to choose the move that guarantees the best possible outcome, even in the worst-case scenario.
+
+
+## Development
+The `runner.py` file contains all the logic for handling the pygame, while the `tictactoe.py` file contains all the functions that are necessary to implement the minimax algorithm, along with the algo itself.
+
+
+## Play the game
+Download the repository and run the `runner.py` file to play the game.
+
